@@ -5,11 +5,24 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\start_ph</sprite>
+    <sprite>sprites\setting_ph</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
-  <rooms name="rooms"/>
+  <scripts name="scripts">
+    <script>scripts\Collision.gml</script>
+    <script>scripts\input_check.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\start_ph_obj</object>
+    <object>objects\setting_ph_obj</object>
+    <object>objects\object2</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\MainMenu</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
